@@ -1,150 +1,246 @@
 /* nachtblau: #0B0C17; */
- /* color: #FF3571; red */
- /* color:#DDD; grey */
- /* color: #3C30FF ; blue */
- /* color: #FFF ; white*/
- /* color: #000; black*/
+/* color: #FF3571; red */
+/* color:#DDD; grey */
+/* color: #3C30FF ; blue */
+/* color: #FFF ; white*/
+/* color: #000; black*/
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,900&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,900&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    /* background-color: white; */
-    font-family: 'Roboto', sans-serif;
-    color: #0B0C17;
+body {
+  /* background-color: white; */
+  font-family: "Roboto", sans-serif;
+  color: #0b0c17;
 }
 
-a{
-    text-decoration: unset;
-    color: unset;
-    
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 /* ---------Header mit Logo------ */
 
 header {
-    display: flex;
-    justify-content: baseline;
-    width: 50px;
-    position: absolute;
+  display: flex;
+  justify-content: baseline;
+  width: 50px;
+  position: absolute;
 }
 
-#logo{
-    display: flex;
-    margin-top: 4rem;
-    margin-left: 4rem;
-    position: fixed;
-   
+#logo {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  position: fixed;
 }
 
-#logo img{
-    width: 40px;
+#logo img {
+  width: 40px;
 }
 
-#logo-text{
-    margin-left: .5em;
-   
+#logo-text {
+  margin-left: 0.5rem;
 }
 
-#logo-text h1{
-    font-size: 1.5rem;
+#logo-text h1 {
+  font-size: 1.5rem;
 }
 
-#logo-text p{
-    font-size: .8rem;
-    font-weight: 700;
+#logo-text p {
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 /* --------- Hero Section---------- */
 
-.hero{
-  display: flex;  
+.hero {
+  display: flex;
   position: relative;
   height: 100vh;
 }
 
-#hero-text-box{
-    position: relative;
-    left: 10rem;
-    top: 15rem;
-    margin-top: 10rem;
-    width: 38%;
-    font-size: 1.2rem;  
+#hero-text-box {
+  position: relative;
+  left: 10rem;
+  top: 15rem;
+  margin-top: 10rem;
+  width: 38%;
+  font-size: 1.2rem;
 }
 
-#hero-text-box h2{
-    font-size: 3.5rem;
+#hero-text-box h2 {
+  font-size: 3.5rem;
 }
 
-#hero-text-box p{
-    margin-top: 1rem;
+#hero-text-box p {
+  margin-top: 1rem;
 }
 
-#hero-illustration-box{
-    position: absolute;
-    width: 90vw;
+#hero-illustration-box {
+  position: absolute;
+  width: 90vw;
 }
 
-.hero img{
-    position: absolute;
-    height: 90vh;
+.hero img {
+  position: absolute;
+  height: 90vh;
 }
 
-.hero>p:last-of-type{
-    position: relative;
-    top: 92vh;
-    right: 26vw;
-    color: #FF3571;
-    font-weight: 700;
-    
+.hero > p:last-of-type {
+  position: relative;
+  top: 92vh;
+  right: 26vw;
+  color: #ff3571;
+  font-weight: 700;
 }
 
 /* --------galerie---------- */
 
-.galerie{
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    margin: 8rem 1rem;
+.galerie {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem 1rem;
 }
 
-.galerie img{
-    width: 90vw;
+.galerie img {
+  width: 90vw;
 }
 
-/* --------- idea-sevtion--------- */
+/* --------- idea-section--------- */
 
-.idea{
-    display: flex;
-    height: 50vh;
-    margin: 5rem;
-    
-
+.idea {
+  display: flex;
+  height: 50vh;
+  margin: 5rem;
 }
 
-#idea-heading{
-    width: 50%;
-    align-self: top;
-    font-size: 2em;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-top: 2rem;
-    margin-left: 2em;
+#idea-heading {
+  width: 50%;
+  align-self: top;
+  font-size: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  margin-left: 2rem;
 }
-
 
 #idea-text {
-    width: 50%;
-    font-size: 1em;
-    line-height: 2em;
-    margin: 4em;
+  width: 50%;
+
+  margin: 4rem;
 }
 
+/* ----------challenge section-------- */
+
+#challenge-header {
+  width: 55%;
+  align-self: top;
+  font-size: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+
+#challenge-items {
+  margin: 6rem;
+}
+
+#first-part,
+#second-part {
+  display: flex;
+  width: 90vw;
+}
+
+.items {
+  width: 40vw;
+  margin: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.items h3 {
+  padding-top: 0.5rem;
+}
+
+.items img {
+  width: 35px;
+  padding-right: 0.5rem;
+}
+
+/* -------section lets go--------- */
+
+.middle {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* --------section steps-forward------ */
+
+.steps {
+  display: flex;
+  margin: 6rem auto;
+  justify-content: space-around;
+}
+
+.steps span{
+    display: block;
+    font-size: 60px;
+    color:#DDD;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
+.steps-img{
+    /* width: 40vw; */
+    margin: 0 auto;
+}
+
+.steps-img img{
+  width: 400px;
+}
+
+.steps-text{
+    width: 40vw;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.steps-text h3{
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+
+/* --------section contact----- */
+
+
+
+/* --------footer-------- */
+footer{
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+footer img{
+    width: 25px;
+}
