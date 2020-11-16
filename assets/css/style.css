@@ -139,7 +139,6 @@ header {
 
 #idea-text {
   width: 50%;
-
   margin: 4rem;
 }
 
@@ -203,44 +202,76 @@ h2 {
   justify-content: space-around;
 }
 
-.steps span{
-    display: block;
-    font-size: 60px;
-    color:#DDD;
-    font-weight: bold;
-    padding-bottom: 3rem;
+.steps span {
+  display: block;
+  font-size: 60px;
+  color: #ddd;
+  font-weight: bold;
+  padding-bottom: 3rem;
 }
 
-.steps-img{
-    /* width: 40vw; */
-    margin: 0 auto;
+.steps-img {
+  /* width: 40vw; */
+  margin: 0 auto;
 }
 
-.steps-img img{
+.steps-img img {
   width: 400px;
 }
 
-.steps-text{
-    width: 40vw;
-    margin-right: 6rem;
-    margin-left: 6rem;
+.steps-text {
+  width: 40vw;
+  margin-right: 6rem;
+  margin-left: 6rem;
 }
 
-.steps-text h3{
-    padding-top: 1rem;
-    padding-bottom:1rem;
+.steps-text h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* --------section contact----- */
 
-
-
-/* --------footer-------- */
-footer{
-    margin-left: 6rem;
-    margin-bottom: 1rem;
+form {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
-footer img{
-    width: 25px;
+label {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+form p {
+  text-align: center;
+  padding: 2rem;
+}
+
+input[type="submit"] {
+  color: #fff;
+  background-color: #ff3571;
+  border-radius: 4px;
+  width: 11rem;
+  height: 2.8rem;
+  border: none;
+  margin: 2rem;
+}
+
+textarea {
+  display: block;
+  width: 500px;
+  min-width: auto;
+  margin: 0 auto;
+}
+
+/* --------footer-------- */
+footer {
+  margin-left: 6rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+footer img {
+  width: 25px;
 }
